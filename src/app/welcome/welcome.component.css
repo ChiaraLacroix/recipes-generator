@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+.searchButton {
+  width: 40px;
+  height: 37px;
+  border: 1px solid #61C8CD;
+  background: #61C8CD;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  font-size: 20px;
+  transform: translate(-15px, -1px);
+}
+
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input {
+  margin: 0.4rem 0;
+  font-size: 22px;
+  border-radius: 50px;
+  border: 3px solid#61C8CD;
+  border-right: none;
+  padding: 12px;
+  height: 37px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+h1 {
+  font-family: Calibri;
+  font-size: 64px;
+  font-style: normal;
+  font-variant: small-caps;
+  font-weight: 100;
+  margin-top: 3cm;
+}
+
+p {
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 26.4px;
+  margin-bottom: 1.2cm;
+  margin-top: 1cm;
+}

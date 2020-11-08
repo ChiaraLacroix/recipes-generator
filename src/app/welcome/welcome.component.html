@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+
+<html>
+
+<body>
+
+	<h1>Welcome to our Recipes Generator</h1>
+	<div class="container">
+		<router-outlet></router-outlet>
+	</div>
+
+	<p>Type ingredients separated by ";" to find associated recipes</p>
+
+
+
+
+	<p> 
+    <div class="wrap">
+    <input type="search" id="site-search" name="q"
+       aria-label="Search through site content" placeholder="carrot;butter;apple;..." size=50>
+
+		<button type="submit" class="searchButton" routerLink="/recipe"> <i class="fa fa-search"></i></button>
+    </div>
+
+		<p>
+
+
+
+
+			<img
+      width="200"
+      alt="logo Ponts"
+      src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Logo_ponts_paristech.png"
+    />
+
+  </body>
+
+
+
+
+
+</html>
